@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+
+# Virtual environment
+.venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Secrets / environment variables — NEVER commit these
+.env
+
+# macOS
+.DS_Store
+
+# Editors
+.vscode/
+.idea/
