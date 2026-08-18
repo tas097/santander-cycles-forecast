@@ -7,7 +7,9 @@ authors = [
     { name = "Fahad Code", email = "tasinul.hoque@gmail.com" }
 ]
 requires-python = ">=3.13"
-dependencies = []
+dependencies = [
+    "pandas>=3.0.5",
+]
 
 [project.scripts]
 santander-cycles-forecast = "santander_cycles_forecast:main"
