@@ -1,6 +1,7 @@
-import pandas as pd
+from .data import load_sample_hires
+from .features import total_by_station
 
 
 def main() -> None:
-    df = pd.DataFrame({"station": ["Hyde Park", "Waterloo"], "hires": [120, 340]})
-    print(df)
+    df = load_sample_hires()
+    print(total_by_station(df))
