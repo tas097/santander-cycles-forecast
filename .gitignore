@@ -20,3 +20,6 @@ dist/
 # Editors
 .vscode/
 .idea/
+
+# Pytest Cache
+.pytest_cache/
