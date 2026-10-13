@@ -9,4 +9,4 @@ COPY src ./src
 
 RUN uv sync --locked --no-dev
 
-CMD ["uv", "run", "santander-cycles-forecast"]
+CMD ["uv", "run", "uvicorn", "santander_cycles_forecast.api:app", "--host", "0.0.0.0", "--port", "8000"]
