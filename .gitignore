@@ -23,3 +23,7 @@ dist/
 
 # Pytest Cache
 .pytest_cache/
+
+# MLflow
+mlflow.db
+mlruns/
